@@ -1,1 +1,15 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --font-family: 'Inter-Variable';
+    --accent-font-family: 'PressStart2P';
+    --main-font-weight: 410;
+    --accent-font-weight: 715;
+    --background-gradient: repeating-linear-gradient(to right, #d3d3d3, transparent 2px),
+    repeating-linear-gradient(to bottom, #d3d3d3, transparent 2px),
+    linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+    --inline-container-size: clamp(375px, 100%, 700px);
+    --logo-size: clamp(49px, 43.37px + 1.50vw, 65px);
+    --header-padding: clamp(120px, 117.18px + 0.75vw, 128px) clamp(16px, -21.50px + 10.00vw, 122.5px);
+    --title-font-size: clamp(14px, 10.83px + 0.85vw, 23px);
+    --text-stroke-color: #fff;
+}
