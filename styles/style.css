@@ -119,6 +119,7 @@
   background-color: transparent;
   border: none;
   outline: none;
+  cursor: pointer;
 }
 
 .buttons-container {
@@ -154,15 +155,87 @@
   line-height: 0.9;
 }
 
-.footer-buttons {
+.footer-button {
   inline-size: clamp(306px, 295.79px + 2.72vw, 335px);
   margin: 0 auto;
   border: 2px solid #000;
   background-color: #fff;
+  margin-block-end: 100px;
 }
 
-@media (width >= 1000px) {
+.floppy {
+  display: block;
+}
+
+.save-button {
+  display: flex;
+  flex-direction: column;
+  inline-size: 100%;
+  align-items: center;
+  gap: 8px;
+  padding-block: 17px;
+}
+
+.dialog-window {
+  font-family: var(--accent-font-family);
+  text-transform: uppercase;
+  
+  
+}
+
+.dialog-window[open] {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 40px;
+  gap: 30px;
+  min-inline-size: 341px;
+  inline-size: clamp(341px, 336.77px + 1.13vw, 353px);
+}
+
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.dialog-title-container {
+  display: grid;
+  grid-template-columns: 39px 1fr;
+  gap: 20px;
+  align-items: center;
+}
+
+.dialog-title {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.save-floppy {
+  width: 100%;
+}
+
+.agree-button {
+  text-transform: uppercase;
+  border: 2px solid #000;
+  font-size: 14px;
+  padding-block: 12.5px;
+}
+
+@media (width >= 1440px) {
   .header {
     margin-block-end: 98px;
+  }
+
+  .save-button {
+    display: flex;
+    flex-direction: row;
+    inline-size: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    block-size: 55px;
+  }
+
+  .floppy {
+    height: 21px;
+    width: 21px;
   }
 }
