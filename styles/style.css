@@ -193,7 +193,7 @@
   mix-blend-mode: difference;
 }
 
-.footer-button {
+.button.footer-button {
   box-sizing: border-box;
   inline-size: clamp(306px, 295.79px + 2.72vw, 335px);
   margin: 0 auto;

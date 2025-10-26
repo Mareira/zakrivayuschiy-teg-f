@@ -336,15 +336,12 @@
         </button>
       </div>
     </article>
-  </main>
-  <footer class="buttons-container footer-button">
-      <button class="button save-button" type="button" onclick="window['save-dialog'].showModal();">
+    <button class="button save-button buttons-container footer-button" type="button" onclick="window['save-dialog'].showModal();">
         <svg class="floppy" viewBox="0 0 21 21" width="28" height="28">
           <use href="svg/floppy-icon.svg#floppy-icon"></use>
         </svg>
         <span class="button__text">Cохранить на память</span>
       </button>
-    </footer>
     <dialog id="save-dialog" class="dialog-window">
       <div class="dialog-title-container">
         <svg class="save-floppy" viewBox="0 0 21 21" width="39" height="39">
@@ -355,6 +352,7 @@
       <button class="button agree-button" type="submit" onclick="window['save-dialog'].close();">
         <span class="button__text">ok</span></button>
     </dialog>
+  </main>
   <script src="./scripts/like.js"></script>
 </body>
 
