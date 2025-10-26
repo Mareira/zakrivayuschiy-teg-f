@@ -19,7 +19,7 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-family: var(--font-family, sans-serif);
-  font-variation-settings: 'wght' var(--main-font-weight);
+  font-variation-settings: "wght" var(--main-font-weight);
   background-image: var(--background-gradient);
   z-index: -1;
   background-attachment: fixed;
@@ -32,7 +32,6 @@
   background-color: #fff;
   box-sizing: border-box;
   border: 2px solid var(--accent-color);
-
 }
 
 .header {
@@ -64,7 +63,7 @@
 
 .card-title {
   font-size: 1rem;
-  font-variation-settings: 'wght' var(--accent-font-weight);
+  font-variation-settings: "wght" var(--accent-font-weight);
   margin-block: 4px;
   margin-inline: 10px;
 }
@@ -81,7 +80,8 @@
   font-size: 14px;
   opacity: 50%;
   mix-blend-mode: hard-light;
-  text-shadow: -1px 0 var(--text-stroke-color), 0 1px var(--text-stroke-color),  0 -1px var(--text-stroke-color), 1px 0 var(--text-stroke-color);
+  text-shadow: -1px 0 var(--text-stroke-color), 0 1px var(--text-stroke-color),
+    0 -1px var(--text-stroke-color), 1px 0 var(--text-stroke-color);
   top: 25px;
   right: 25px;
 }
@@ -139,7 +139,6 @@
   margin-block: 25px;
 }
 
-
 .card-text:not(:last-child) {
   margin-block-end: 25px;
 }
@@ -186,7 +185,7 @@
 }
 
 .button__text {
-  font-family: var(--accent-font-family, sans-serif);  
+  font-family: var(--accent-font-family, sans-serif);
   font-size: 14px;
   line-height: 0.9;
   position: relative;
@@ -206,7 +205,7 @@
 .floppy {
   display: block;
   filter: brightness(0) invert(1);
-  mix-blend-mode: difference; 
+  mix-blend-mode: difference;
 }
 
 .save-button {
