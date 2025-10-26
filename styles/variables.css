@@ -12,4 +12,8 @@
     --header-padding: clamp(120px, 117.18px + 0.75vw, 128px) clamp(16px, -21.50px + 10.00vw, 122.5px);
     --title-font-size: clamp(14px, 10.83px + 0.85vw, 23px);
     --text-stroke-color: #fff;
+    --buttons-text-color: #fff;
+    --accent-color: #000;
+    --contour-color: #000;
+    --animation-fill-color: #FF0000;
 }
