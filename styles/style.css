@@ -84,6 +84,7 @@
     0 -1px var(--text-stroke-color), 1px 0 var(--text-stroke-color);
   top: 25px;
   right: 25px;
+  z-index: 1;
 }
 
 @supports (-webkit-text-stroke: 1px var(--text-stroke-color)) {
