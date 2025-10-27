@@ -147,8 +147,6 @@
 }
 
 .button {
-  background-color: transparent;
-  border: none;
   cursor: pointer;
   border: 2px solid var(--accent-color);
   text-transform: capitalize;
@@ -177,7 +175,6 @@
 
 .card__icon-button {
   background-color: transparent;
-  border: none;
   cursor: pointer;
   block-size: 38px;
   display: flex;
